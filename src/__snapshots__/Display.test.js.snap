@@ -1,0 +1,7 @@
+exports[`test Display renders correctly 1`] = `
+<div
+  className="count">
+  Current count: 
+  23
+</div>
+`;

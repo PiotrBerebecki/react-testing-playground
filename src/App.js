@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
+
+import Display from './Display';
 import './App.css';
 
 class App extends Component {
+  state = {
+    count: 0,
+  };
+
+  handleClick = () => {
+    this.setState(prevState => ({
+      count: prevState.count + 1,
+    }));
+  };
+
   render() {
     return (
       <div className="container">
         Welcome to testing
-        <ul>
-          <li>First</li>
-          <li>Second</li>
-        </ul>
+        <button onClick={this.handleClick}>Click me :)</button>
+        <Display count={this.state.count} />
       </div>
     );
   }

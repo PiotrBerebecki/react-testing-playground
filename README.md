@@ -1,9 +1,16 @@
 [![Build Status](https://travis-ci.org/PiotrBerebecki/react-testing-playground.svg?branch=master)](https://travis-ci.org/PiotrBerebecki/react-testing-playground)
+[![codecov](https://codecov.io/gh/PiotrBerebecki/react-testing-playground/branch/master/graph/badge.svg)](https://codecov.io/gh/PiotrBerebecki/react-testing-playground)
 
-# React Testing
 
+# React Testing Playground
+
+## Tech stack
 - jest
 - enzyme
+- prettier
+- Travis CI
+- codecov
+
 
 ### Testing Components
 

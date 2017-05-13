@@ -1,6 +1,9 @@
+[![Build Status](https://travis-ci.org/PiotrBerebecki/react-testing-playground.svg?branch=master)](https://travis-ci.org/PiotrBerebecki/react-testing-playground)
+
 # React Testing
 
--
+- jest
+- enzyme
 
 ### Testing Components
 

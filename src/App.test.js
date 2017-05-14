@@ -17,6 +17,17 @@ describe('App', () => {
     shallow(<App />);
   });
 
+  // DOM testing (manipulate renderered component)
+  it("renders without crashing (using enzyme's shallow rendering", () => {
+    const component = shallow(<App />);
+
+    component.find('button').simulate('click');
+    component.find('button').simulate('click');
+    component.find('button').simulate('click');
+    // console.log('==========', component.find('.parent__display').text());
+    expect(component.find('.parent__display').text()).toContain('Count');
+  });
+
   // snapshot test
   it('renders component correctly', () => {
     const component = renderer.create(<App />);

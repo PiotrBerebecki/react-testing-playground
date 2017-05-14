@@ -3,7 +3,7 @@ import React from 'react';
 function Display({ count }) {
   return (
     <div className="count">
-      Current count: {count}
+      Count in child: {count}
     </div>
   );
 }

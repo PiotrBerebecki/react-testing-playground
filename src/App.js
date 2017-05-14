@@ -19,6 +19,7 @@ class App extends Component {
       <div className="container">
         Welcome to testing
         <button onClick={this.handleClick}>Click me :)</button>
+        <p className="parent__display">Count in parent: {this.state.count}</p>
         <Display count={this.state.count} />
       </div>
     );

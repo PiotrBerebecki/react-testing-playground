@@ -1,7 +1,7 @@
 exports[`Display Display renders correctly 1`] = `
 <div
   className="count">
-  Current count: 
+  Count in child: 
   22
 </div>
 `;

@@ -6,9 +6,14 @@ exports[`App renders component correctly 1`] = `
     onClick={[Function]}>
     Click me :)
   </button>
+  <p
+    className="parent__display">
+    Count in parent: 
+    0
+  </p>
   <div
     className="count">
-    Current count: 
+    Count in child: 
     0
   </div>
 </div>
@@ -22,9 +27,14 @@ exports[`App renders component correctly 2`] = `
     onClick={[Function]}>
     Click me :)
   </button>
+  <p
+    className="parent__display">
+    Count in parent: 
+    1
+  </p>
   <div
     className="count">
-    Current count: 
+    Count in child: 
     1
   </div>
 </div>

@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  text-align: center;
+}
+
 .count {
   color: lightcoral;
 }

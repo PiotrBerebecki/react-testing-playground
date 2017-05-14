@@ -24,8 +24,7 @@ describe('App', () => {
     component.find('button').simulate('click');
     component.find('button').simulate('click');
     component.find('button').simulate('click');
-    // console.log('==========', component.find('.parent__display').text());
-    expect(component.find('.parent__display').text()).toContain('Count');
+    expect(component.find('.parent__display').text()).toContain('3');
   });
 
   // snapshot test
